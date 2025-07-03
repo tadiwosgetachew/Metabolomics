@@ -1,0 +1,28 @@
+Pathway,Total,Expected,Hits,Pval,FDR
+"Alanine, aspartate and glutamate metabolism",28,0.413,7,3.71e-08,2.67e-06
+Arginine biosynthesis,14,0.206,4,2.97e-05,0.00107
+Butanoate metabolism,15,0.221,3,0.00109,0.0191
+Biotin metabolism,4,0.059,2,0.00121,0.0191
+Histidine metabolism,16,0.236,3,0.00133,0.0191
+Nitrogen metabolism,6,0.0885,2,0.00297,0.0356
+Pyrimidine metabolism,39,0.575,3,0.0175,0.18
+Citrate cycle (TCA cycle),16,0.236,2,0.0218,0.196
+beta-Alanine metabolism,21,0.31,2,0.0365,0.292
+One carbon pool by folate,26,0.383,2,0.054,0.378
+Linoleic acid metabolism,4,0.059,1,0.0578,0.378
+Glyoxylate and dicarboxylate metabolism,31,0.457,2,0.0741,0.444
+Arginine and proline metabolism,35,0.516,2,0.0916,0.494
+Biosynthesis of unsaturated fatty acids,36,0.531,2,0.0961,0.494
+alpha-Linolenic acid metabolism,12,0.177,1,0.164,0.787
+Nicotinate and nicotinamide metabolism,15,0.221,1,0.201,0.865
+Selenocompound metabolism,16,0.236,1,0.213,0.865
+Lipoic acid metabolism,17,0.251,1,0.225,0.865
+Pantothenate and CoA biosynthesis,18,0.265,1,0.236,0.865
+Glutathione metabolism,19,0.28,1,0.248,0.865
+Pyruvate metabolism,20,0.295,1,0.259,0.865
+Lysine degradation,21,0.31,1,0.27,0.865
+Purine metabolism,70,1.03,2,0.276,0.865
+Glycolysis or Gluconeogenesis,23,0.339,1,0.292,0.875
+Porphyrin metabolism,29,0.428,1,0.353,1
+"Glycine, serine and threonine metabolism",30,0.442,1,0.363,1
+Cysteine and methionine metabolism,33,0.487,1,0.392,1

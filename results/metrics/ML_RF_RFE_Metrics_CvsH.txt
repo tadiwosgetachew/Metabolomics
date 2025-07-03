@@ -1,0 +1,17 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+     Healthy       0.86      0.95      0.90        19
+         CRC       0.91      0.77      0.83        13
+
+    accuracy                           0.88        32
+   macro avg       0.88      0.86      0.87        32
+weighted avg       0.88      0.88      0.87        32
+
+Confusion Matrix:
+[[18  1]
+ [ 3 10]]
+Test AUC: 0.923
+
+Average 5-Fold CV Accuracy: 0.7778225806451614
+Selected Features: ['Acetoacetate (101.0 / 57.0)', 'Adenylosuccinate (462.1 / 79.0)', 'Alpha-Ketoglutaric Acid (145.0 / 101.0)', 'Arginine (175.1 / 70.0)', 'Aspartic Acid (132.0 / 88.0)', 'Creatinine (114.1 / 44.0)', 'Epinephrine (184.1 / 166.3)', 'G16BP (339.0 / 79.0 (2))', 'Glucose (179.0 / 89.0)', 'Glyceraldehyde (89.0 / 59.0)', 'Glycochenodeoxycholate (448.3 / 74.0)', 'Histidine (156.1 / 110.0)', 'Hyppuric Acid (178.0 / 134.0)', 'Linoleic Acid (277.1 / 259.0)', 'Linolenic Acid (279.1 / 261.0)', 'Lysine (147.1 / 84.0 (2))', 'Maleic Acid (115.0 / 71.0 (2))', 'Malonic Acid/3HBA (103.0 / 59.0)', 'Methionine (150.1 / 61.0)', 'PEP (166.9 / 79.0)']

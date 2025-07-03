@@ -1,0 +1,22 @@
+Selected Top 10 Features:
+['Methionine (150.1 / 61.0)', 'Glyceraldehyde (89.0 / 59.0)', 'Uridine (245.0 / 113.0)', "2'-Deoxyuridine (229.1 / 113.0)", 'PEP (166.9 / 79.0)', 'Linolenic Acid (279.1 / 261.0)', 'N-AcetylGlycine (116.0 / 74.0)', 'Hyppuric Acid (178.0 / 134.0)', 'Lysine (147.1 / 84.0 (2))', 'Margaric Acid (269.1 / 251.3)']
+
+ Classification Report:
+              precision    recall  f1-score   support
+
+       Polyp       0.82      0.88      0.85        16
+         CRC       0.83      0.77      0.80        13
+
+    accuracy                           0.83        29
+   macro avg       0.83      0.82      0.82        29
+weighted avg       0.83      0.83      0.83        29
+
+
+ Confusion Matrix:
+[[14  2]
+ [ 3 10]]
+
+ Test AUC: 0.865
+
+
+ 5-Fold CV Accuracy: 0.775 ± 0.048

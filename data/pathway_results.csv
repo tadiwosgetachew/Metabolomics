@@ -1,0 +1,28 @@
+Pathway Name,Total,Expected,Hits,Raw p,log(P),Holm adjust,FDR,Impact
+"Alanine, aspartate and glutamate metabolism",28,0.29899,7,4.04E-09,8.3939,3.23E-07,3.23E-07,0.69071
+Arginine biosynthesis,14,0.1495,4,8.37E-06,5.0775,0.00066092,0.00033464,0.12234
+Butanoate metabolism,15,0.16018,3,0.0004257,3.3709,0.033204,0.010409,0.03175
+Histidine metabolism,16,0.17085,3,0.00052047,3.2836,0.040076,0.010409,0.22131
+Nitrogen metabolism,6,0.06407,2,0.0015707,2.8039,0.11937,0.025131,0
+Biotin metabolism,10,0.10678,2,0.0045949,2.3377,0.34461,0.061265,0.2
+Pyrimidine metabolism,39,0.41646,3,0.0072914,2.1372,0.53957,0.083331,0.07784
+Citrate cycle (TCA cycle),20,0.21357,2,0.018219,1.7395,1,0.17788,0.05856
+beta-Alanine metabolism,21,0.22425,2,0.020011,1.6987,1,0.17788,0
+One carbon pool by folate,26,0.27764,2,0.030015,1.5227,1,0.24012,0.1261
+Glyoxylate and dicarboxylate metabolism,32,0.34171,2,0.044121,1.3554,1,0.31234,0
+Linoleic acid metabolism,5,0.053392,1,0.052328,1.2813,1,0.31234,1
+Biosynthesis of unsaturated fatty acids,36,0.38442,2,0.05466,1.2623,1,0.31234,0
+Arginine and proline metabolism,36,0.38442,2,0.05466,1.2623,1,0.31234,0.04767
+alpha-Linolenic acid metabolism,13,0.13882,1,0.13073,0.88364,1,0.69721,0.33333
+Nicotinate and nicotinamide metabolism,15,0.16018,1,0.14935,0.8258,1,0.74675,0
+Purine metabolism,70,0.74749,2,0.16978,0.77011,1,0.79896,0
+Selenocompound metabolism,20,0.21357,1,0.19428,0.71158,1,0.81801,0
+Pantothenate and CoA biosynthesis,20,0.21357,1,0.19428,0.71158,1,0.81801,0
+Pyruvate metabolism,23,0.2456,1,0.22015,0.65728,1,0.88061,0
+Glycolysis or Gluconeogenesis,26,0.27764,1,0.24524,0.6104,1,0.89145,0.10277
+Lipoic acid metabolism,28,0.29899,1,0.26155,0.58245,1,0.89145,0
+Glutathione metabolism,28,0.29899,1,0.26155,0.58245,1,0.89145,0.01966
+Lysine degradation,30,0.32035,1,0.27752,0.55671,1,0.89145,0
+Porphyrin metabolism,31,0.33103,1,0.28538,0.54458,1,0.89145,0
+"Glycine, serine and threonine metabolism",33,0.35239,1,0.30087,0.52163,1,0.89145,0.07426
+Cysteine and methionine metabolism,33,0.35239,1,0.30087,0.52163,1,0.89145,0.10446

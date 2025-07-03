@@ -1,0 +1,58 @@
+Metabolite set,total,expected,hits,Raw p,Holm p,FDR
+Colorectal cancer,54,0.0403,10,3.39E-23,9.50E-21,9.50E-21
+Schizophrenia,101,0.0755,10,2.69E-20,7.51E-18,3.77E-18
+Epilepsy,15,0.0112,6,2.98E-16,8.29E-14,2.78E-14
+Pancreatic cancer,21,0.0157,5,2.35E-12,6.51E-10,1.48E-10
+Alzheimer's disease,59,0.0441,6,2.64E-12,7.28E-10,1.48E-10
+Lipoyltransferase 1 Deficiency,12,0.00896,4,1.02E-10,2.82E-08,4.78E-09
+Fumarase deficiency,13,0.00971,4,1.48E-10,4.05E-08,5.91E-09
+Histidinemia,4,0.00299,3,1.37E-09,3.73E-07,4.79E-08
+N-acetylglutamate synthetase deficiency,9,0.00672,3,2.87E-08,7.79E-06,8.91E-07
+Heart failure,12,0.00896,3,7.49E-08,2.03E-05,2.10E-06
+Dengue fever,3,0.00224,2,1.57E-06,0.000424,3.66E-05
+Dicarboxylic aminoaciduria,3,0.00224,2,1.57E-06,0.000424,3.66E-05
+Late-onset preeclampsia,40,0.0299,3,3.32E-06,0.000891,7.16E-05
+Early preeclampsia,45,0.0336,3,4.76E-06,0.00127,9.52E-05
+Pyruvate carboxylase deficiency,5,0.00374,2,5.23E-06,0.00139,9.75E-05
+"Citrullinemia type II, neonatal-onset",7,0.00523,2,1.10E-05,0.00291,0.000181
+Essential hypertension,7,0.00523,2,1.10E-05,0.00291,0.000181
+Hypertension,13,0.00971,2,4.06E-05,0.0107,0.000608
+Uremia,92,0.0687,3,4.12E-05,0.0108,0.000608
+Isovaleric acidemia,23,0.0172,2,0.000131,0.0342,0.00184
+Cirrhosis,30,0.0224,2,0.000225,0.0585,0.003
+Alpha-aminoadipic and alpha-ketoadipic aciduria,2,0.00149,1,0.00149,0.387,0.0155
+Cobalamin F disease (cblF),2,0.00149,1,0.00149,0.387,0.0155
+"Coenzyme Q10 deficiency, primary, 5",2,0.00149,1,0.00149,0.387,0.0155
+Gaba-transaminase deficiency,2,0.00149,1,0.00149,0.387,0.0155
+"Homocystinuria-megaloblastic anemia due to defect in cobalamin metabolism, cblG complementation type",2,0.00149,1,0.00149,0.387,0.0155
+Methionine adenosyltransferase deficiency,2,0.00149,1,0.00149,0.387,0.0155
+Pregnancy,766,0.572,4,0.00209,0.53,0.0184
+Adenosine kinase deficiency,3,0.00224,1,0.00224,0.564,0.0184
+Gestational diabetes,3,0.00224,1,0.00224,0.564,0.0184
+Hepatic encephalopathy,3,0.00224,1,0.00224,0.564,0.0184
+Lysinuric protein intolerance,3,0.00224,1,0.00224,0.564,0.0184
+Methylenetetrahydrofolate reductase deficiency,3,0.00224,1,0.00224,0.564,0.0184
+Tyrosinemia,3,0.00224,1,0.00224,0.564,0.0184
+"2,4-dienoyl-CoA reductase deficiency",4,0.00299,1,0.00299,0.734,0.0209
+Glucagon deficiency,4,0.00299,1,0.00299,0.734,0.0209
+Homocystinuria,4,0.00299,1,0.00299,0.734,0.0209
+L-2-Hydroxyglutaric aciduria,4,0.00299,1,0.00299,0.734,0.0209
+Mitochondrial pyruvate carrier deficiency,4,0.00299,1,0.00299,0.734,0.0209
+Refractory localization-related epilepsy,4,0.00299,1,0.00299,0.734,0.0209
+Hypermethioninemia,5,0.00374,1,0.00373,0.895,0.0249
+Lesch-Nyhan syndrome,5,0.00374,1,0.00373,0.895,0.0249
+"Leigh's syndrome, subacute necrotizing encephalopathy, SNE",6,0.00448,1,0.00447,1,0.0285
+Pyruvate dehydrogenase phosphatase deficiency,6,0.00448,1,0.00447,1,0.0285
+2-Ketoglutarate dehydrogenase complex deficiency,7,0.00523,1,0.00522,1,0.0311
+Pearson Syndrome,7,0.00523,1,0.00522,1,0.0311
+"Phosphoenolpyruvate Carboxykinase Deficiency 1, Cytosolic",7,0.00523,1,0.00522,1,0.0311
+Dihydrolipoamide Dehydrogenase Deficiency,8,0.00598,1,0.00596,1,0.0334
+Dimethylglycine Dehydrogenase Deficiency,8,0.00598,1,0.00596,1,0.0334
+Major depressive disorder,8,0.00598,1,0.00596,1,0.0334
+Lung Cancer,9,0.00672,1,0.0067,1,0.0361
+Stomach cancer,9,0.00672,1,0.0067,1,0.0361
+Perillyl alcohol administration for cancer treatment,13,0.00971,1,0.00967,1,0.0511
+Canavan disease,15,0.0112,1,0.0112,1,0.0578
+Hemodialysis,19,0.0142,1,0.0141,1,0.0718
+Obesity,745,0.557,3,0.0167,1,0.0837
+Kidney disease,28,0.0209,1,0.0207,1,0.102

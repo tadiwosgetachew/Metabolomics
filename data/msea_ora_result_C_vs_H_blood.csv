@@ -1,0 +1,48 @@
+Metabolite Set,total,expected,hits,Raw p,Holm p,FDR
+Colorectal cancer,54,0.0252,7,5.16E-17,1.44E-14,1.44E-14
+Schizophrenia,101,0.0472,6,1.96E-12,5.46E-10,2.74E-10
+Fumarase deficiency,13,0.00607,4,1.71E-11,4.75E-09,1.60E-09
+Epilepsy,15,0.007,4,3.26E-11,9.04E-09,2.28E-09
+Alzheimer's disease,59,0.0275,4,1.08E-08,2.97E-06,6.03E-07
+Lipoyltransferase 1 Deficiency,12,0.0056,3,1.61E-08,4.42E-06,7.51E-07
+Pancreatic cancer,21,0.0098,3,9.70E-08,2.66E-05,3.88E-06
+Dicarboxylic aminoaciduria,3,0.0014,2,5.88E-07,0.000161,2.06E-05
+Late-onset preeclampsia,40,0.0187,3,7.18E-07,0.000195,2.23E-05
+Early preeclampsia,45,0.021,3,1.03E-06,0.000279,2.88E-05
+Histidinemia,4,0.00187,2,1.18E-06,0.000318,3.00E-05
+Pyruvate carboxylase deficiency,5,0.00233,2,1.96E-06,0.000527,4.57E-05
+"Citrullinemia type II, neonatal-onset",7,0.00327,2,4.12E-06,0.0011,8.86E-05
+Obesity,745,0.348,4,0.000258,0.0689,0.00516
+Pregnancy,766,0.358,4,0.000287,0.0763,0.00536
+Uremia,92,0.043,2,0.000803,0.213,0.0119
+Alpha-aminoadipic and alpha-ketoadipic aciduria,2,0.000934,1,0.000934,0.246,0.0119
+Cobalamin F disease (cblF),2,0.000934,1,0.000934,0.246,0.0119
+Glutathione synthetase deficiency,2,0.000934,1,0.000934,0.246,0.0119
+"Homocystinuria-megaloblastic anemia due to defect in cobalamin metabolism, cblG complementation type",2,0.000934,1,0.000934,0.246,0.0119
+Iminoglycinuria,2,0.000934,1,0.000934,0.246,0.0119
+Methionine adenosyltransferase deficiency,2,0.000934,1,0.000934,0.246,0.0119
+Adenosine kinase deficiency,3,0.0014,1,0.0014,0.361,0.0145
+Dengue fever,3,0.0014,1,0.0014,0.361,0.0145
+Lysinuric protein intolerance,3,0.0014,1,0.0014,0.361,0.0145
+Methylenetetrahydrofolate reductase deficiency,3,0.0014,1,0.0014,0.361,0.0145
+Tyrosinemia,3,0.0014,1,0.0014,0.361,0.0145
+"2,4-dienoyl-CoA reductase deficiency",4,0.00187,1,0.00187,0.472,0.0163
+Homocystinuria,4,0.00187,1,0.00187,0.472,0.0163
+L-2-Hydroxyglutaric aciduria,4,0.00187,1,0.00187,0.472,0.0163
+Mitochondrial pyruvate carrier deficiency,4,0.00187,1,0.00187,0.472,0.0163
+Refractory localization-related epilepsy,4,0.00187,1,0.00187,0.472,0.0163
+"Cutis laxa, autosomal recessive, type IIIA",5,0.00233,1,0.00233,0.578,0.0192
+Hypermethioninemia,5,0.00233,1,0.00233,0.578,0.0192
+2-Ketoglutarate dehydrogenase complex deficiency,7,0.00327,1,0.00326,0.803,0.0247
+Essential hypertension,7,0.00327,1,0.00326,0.803,0.0247
+"Phosphoenolpyruvate Carboxykinase Deficiency 1, Cytosolic",7,0.00327,1,0.00326,0.803,0.0247
+Dihydrolipoamide Dehydrogenase Deficiency,8,0.00374,1,0.00373,0.906,0.0261
+Dimethylglycine Dehydrogenase Deficiency,8,0.00374,1,0.00373,0.906,0.0261
+Major depressive disorder,8,0.00374,1,0.00373,0.906,0.0261
+N-acetylglutamate synthetase deficiency,9,0.0042,1,0.0042,1,0.0286
+Heart failure,12,0.0056,1,0.00559,1,0.0373
+Hypertension,13,0.00607,1,0.00605,1,0.0394
+Hemodialysis,19,0.00887,1,0.00884,1,0.0562
+Isovaleric acidemia,23,0.0107,1,0.0107,1,0.0665
+Kidney disease,28,0.0131,1,0.013,1,0.0791
+Cirrhosis,30,0.014,1,0.0139,1,0.0829
