@@ -28,13 +28,14 @@ This project presents a complete pipeline for **biomarker discovery and validati
 ```mermaid
 graph TD
   A[Data Import & Preprocessing] --> B[PCA & PLS-DA]
-  B --> C[Statistical Analysis (VIP, t-test)]
-  C --> D[Metabolite Selection (VIP > 1, FDR < 0.05)]
-  D --> E[Visualization (Volcano, Heatmap)]
-  D --> F[Pathway Enrichment (KEGG & Disease Signatures)]
-  D --> G[Network Analysis]
-  D --> H[Machine Learning Models]
-  ```
+  B --> C["Statistical Analysis (VIP & t-test)"]
+  C --> D["Metabolite Selection (VIP > 1 & FDR < 0.05)"]
+  D --> E["Visualization (Volcano, Heatmap)"]
+  D --> F["Pathway Enrichment (KEGG & Disease Signatures)"]
+  D --> G["Network Analysis"]
+  D --> H["Machine Learning Models"]
+```
+
 
 ## Environment Setup
 
