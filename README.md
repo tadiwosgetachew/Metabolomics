@@ -42,6 +42,7 @@ To replicate the environment, run:
 
 ```bash
 pip install -r requirements.txt
+```
 
 
 ## Key Findings
