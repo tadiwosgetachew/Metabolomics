@@ -119,7 +119,8 @@ The findings highlight strong potential for **non-invasive metabolomic biomarker
 - Validate on independent, larger datasets  
   To ensure generalizability and clinical relevance, the metabolite-based models should be tested on external cohorts.
 
-- Explore multi-omics integration 
+- Explore multi-omics integration
+  
   Combine metabolomics with other omics layers (e.g., transcriptomics, microbiome) to build more comprehensive and mechanistically informative models of CRC.
 
 - Incorporate clinical and lifestyle metadata  
