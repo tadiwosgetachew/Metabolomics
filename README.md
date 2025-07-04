@@ -1,6 +1,6 @@
 # Colorectal Cancer Biomarker Discovery Using LC-MS Metabolomics and Machine Learning
 
-This project presents a complete pipeline for **biomarker discovery and validation** in colorectal cancer (CRC) using **targeted LC-MS metabolomics**. By integrating **statistical filtering**, **pathway enrichment**, and **machine learning**, we identify metabolite signatures that differentiate CRC from **polyps** and **healthy** individuals.
+This project presents a pipeline for **biomarker discovery and validation** in colorectal cancer (CRC) using targeted LC-MS metabolomics. By integrating statistical filtering, pathway enrichment, and machine learning, we identify metabolite signatures that differentiate CRC from polyps and healthy individuals.
 
 ---
 
@@ -19,7 +19,7 @@ This project presents a complete pipeline for **biomarker discovery and validati
   - CRC patients
   - Polyp patients
   - Healthy controls
-- **Type**: Targeted metabolomics (LC-MS)
+- **Type**: Targeted Serum metabolomics (LC-MS)
 
 ---
 
@@ -52,18 +52,18 @@ pip install -r requirements.txt
 ### Exploratory Data Analysis
 - **PCA** showed minimal separation between CRC, polyp, and healthy samples.
 - **PLS-DA** revealed clearer group separation, especially between CRC and other groups.
-- **CRC vs Polyp** had the best discrimination:
-  - CRC vs Polyp: **AUC = 0.855**
-  - CRC vs Healthy: **AUC = 0.844**
-  - Healthy vs Polyp: **AUC = 0.523**
-  - Multiclass (CRC, Polyp, Healthy): **AUC ≈ 0.713**
-- **Permutation testing (n = 1000)** validated the statistical significance of all models (p < 0.001).
+- CRC vs Polyp had the best discrimination:
+  - CRC vs Polyp: AUC = 0.855
+  - CRC vs Healthy: AUC = 0.844
+  - Healthy vs Polyp: AUC = 0.523
+  - Multiclass (CRC, Polyp, Healthy): AUC ≈ 0.713
+- Permutation testing (n = 1000) validated the statistical significance of all models (p < 0.001).
 
 ### Statistically Significant Metabolites
-- **Combined VIP > 1 and FDR-adjusted p < 0.05** used to select key metabolites.
-- **CRC vs Healthy**: 15 significant metabolites
-- **CRC vs Polyp**: 22 significant metabolites
-- Several metabolites were **shared** across both comparisons:
+- Combined VIP > 1 and FDR-adjusted p < 0.05 used to select key metabolites.
+- CRC vs Healthy: 15 significant metabolites
+- CRC vs Polyp: 22 significant metabolites
+- Several metabolites were shared across both comparisons:
   - Methionine, L-Aspartic acid, Lysine, Glutamine, Histidine, Hippuric Acid
 
 ### Biological Enrichment (MetaboAnalyst)
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 - Suggests robust biological relevance and confirms CRC-specific metabolic reprogramming.
 
 ### Pathway Enrichment (KEGG)
-- **Top enriched pathways (CRC vs Polyp):**
+- Top enriched pathways (CRC vs Polyp):
   - **Alanine, Aspartate & Glutamate Metabolism (hsa00250)**
   - **Arginine Biosynthesis (hsa00220)**
 - Other enriched pathways:
@@ -91,14 +91,14 @@ pip install -r requirements.txt
 ### Machine Learning Results
 - **CRC vs Polyp**:
   - Top 10 features selected via RFE
-  - **Test Accuracy**: 83%
-  - **AUC**: 0.865
-  - **5-Fold CV Accuracy**: 77.5% ± 4.8%
+  - Test Accuracy: 83%
+  - AUC: 0.865
+  - 5-Fold CV Accuracy: 77.5% ± 4.8%
 - **CRC vs Healthy**:
   - Top 20 features selected
-  - **Test Accuracy**: 88%
-  - **AUC**: 0.923
-  - **5-Fold CV Accuracy**: 77.8%
+  - Test Accuracy: 88%
+  - AUC: 0.923
+  - 5-Fold CV Accuracy: 77.8%
 - Trade-off observed:
   - Full feature set = higher biological interpretability
   - Reduced feature set = higher ML precision (but fewer known CRC markers)
@@ -116,25 +116,25 @@ The findings highlight strong potential for **non-invasive metabolomic biomarker
 
 ## Future Work
 
-- **Validate on independent, larger datasets**  
+- Validate on independent, larger datasets  
   To ensure generalizability and clinical relevance, the metabolite-based models should be tested on external cohorts.
 
-- **Explore multi-omics integration**  
+- Explore multi-omics integration 
   Combine metabolomics with other omics layers (e.g., transcriptomics, microbiome) to build more comprehensive and mechanistically informative models of CRC.
 
-- **Incorporate clinical and lifestyle metadata**  
+- Incorporate clinical and lifestyle metadata  
   Enhance predictive modeling by integrating key variables such as:  
   `['Age at Consent', 'Gender', 'Height [cm]', 'Weight [kg]', 'BMI [kg/m²]', 'Smoking Status', 'Alcohol Consumption']`  
   These features may improve classification performance and enable personalized risk prediction.  
-  - **BMI** is a modifiable CRC risk factor related to systemic metabolism.  
-  - **Smoking** and **alcohol consumption** are established lifestyle-related CRC risk factors.  
-  - **Gender differences** affect CRC risk, metabolism, and treatment response.  
-  Including these covariates can improve both **predictive power** and **biological interpretability**.
+  - BMI is a modifiable CRC risk factor related to systemic metabolism.  
+  - Smoking and alcohol consumption are established lifestyle-related CRC risk factors.  
+  - Gender differences affect CRC risk, metabolism, and treatment response.  
+  Including these covariates can improve both predictive power and biological interpretability.
 
-- **Apply model interpretability techniques**  
-  Use tools such as **SHAP (SHapley Additive exPlanations)** to understand how each metabolite and clinical feature contributes to individual predictions.
+- Apply model interpretability techniques  
+  Use tools such as SHAP (SHapley Additive exPlanations) to understand how each metabolite and clinical feature contributes to individual predictions.
 
-- **Benchmark multiple machine learning algorithms**  
+- Benchmark multiple machine learning algorithms  
   Compare performance of Random Forest with other classifiers such as:
   - XGBoost
   - Support Vector Machines (SVM)
