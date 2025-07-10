@@ -22,9 +22,6 @@ This project presents a pipeline for **biomarker discovery and validation** in c
 - **Type**: Targeted serum metabolomics (LC-MS)
 
 ---
-## Live Dashboard
-You can explore the interactive metabolomics dashboard here:
-[![View Dashboard](https://img.shields.io/badge/Live%20Dashboard-Streamlit-green?logo=streamlit)](https://tadiwos-crc-metabolomics-dashboard.streamlit.app/)
 
 ## Workflow Overview
 
@@ -39,6 +36,9 @@ graph TD
   D --> H["Machine Learning<br>Models"]
 ```
 
+## Live Dashboard
+You can explore the interactive metabolomics dashboard here:
+[![View Dashboard](https://img.shields.io/badge/Live%20Dashboard-Streamlit-green?logo=streamlit)](https://tadiwos-crc-metabolomics-dashboard.streamlit.app/)
 
 
 ## Environment Setup
