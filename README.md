@@ -19,9 +19,12 @@ This project presents a pipeline for **biomarker discovery and validation** in c
   - CRC patients
   - Polyp patients
   - Healthy controls
-- **Type**: Targeted Serum metabolomics (LC-MS)
+- **Type**: Targeted serum metabolomics (LC-MS)
 
 ---
+## Live Dashboard
+You can explore the interactive metabolomics dashboard here:
+[![View Dashboard](https://img.shields.io/badge/Live%20Dashboard-Streamlit-green?logo=streamlit)](https://tadiwos-crc-metabolomics-dashboard.streamlit.app/)
 
 ## Workflow Overview
 
